@@ -1,0 +1,30 @@
+{
+  "name": "cs3219taskb_otot",
+  "version": "1.0.0",
+  "description": "An app demonstrating simple restful api",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckb055/CS3219TaskB_OTOT.git"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "json"
+  ],
+  "author": "Chen Kaibin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckb055/CS3219TaskB_OTOT/issues"
+  },
+  "homepage": "https://github.com/ckb055/CS3219TaskB_OTOT#readme"
+}
