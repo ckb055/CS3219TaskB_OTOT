@@ -37,10 +37,6 @@ app.get("/", (req, res) =>
 // Use Api routes in the App
 app.use("/api", apiRoutes);
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
-
 // Launch app to listen to specified port
 app.listen(port, function () {
   console.log("Running Task B on port " + port);
